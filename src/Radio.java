@@ -15,13 +15,11 @@ public class Radio implements IRadio {
     @Override
     public void on() {
         encendido = true;
-        System.out.println("Ha encendido la Radio");
     }
 
     @Override
     public void off() {
         encendido = false;
-        System.out.println("Ha apagado la radio");
     }
 
     @Override
