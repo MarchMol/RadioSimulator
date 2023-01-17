@@ -13,7 +13,7 @@ public class Radio implements IRadio {
     // FM mult de 0.2, 87.9 a 107.9
 
     @Override
-    public void on() {
+    public void on() { // nlolol
         encendido = true;
     }
 
